@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+     
+</head>
+<style>
+    * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+body {
+    background-color: #1d2027;
+}
+
+nav {
+    display: flex;
+    color: azure;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+nav h1 {
+    nav h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border: 2px solid red;
+        border-radius: 50%;
+        background-color: aqua;
+        font-size: 25px;
+        text-shadow: 4px 4px 6px black;
+    }
+
+}
+
+nav a {
+    font-size: larger;
+}
+
+a:hover {
+    color: blue;
+}
+
+.container {
+    padding-top: 170px;
+    margin-left: 120px;
+    color: #fff;
+    height: 650px;
+
+    animation: slide 4s ease-in-out 1s 1;
+
+}
+
+@keyframes slide {
+    20% {
+        transform: translateX(-100%);
+        text-shadow: 0 0 10px rgb(219, 238, 238),
+            0 0 20px white,
+            0 0 40px white;
+    }
+
+    50% {
+        transform: translateX(-10);
+        text-shadow: 0 0 10px white,
+            0 0 20px white,
+            0 0 40px white;
+    }
+
+    80% {
+        transform: translateX(-10);
+        text-shadow: 0 0 10px white,
+            0 0 20px white,
+            0 0 40px white;
+    }
+
+    90% {
+        transform: translateX(-10);
+        text-shadow: 0 0 10px white,
+            0 0 20px white,
+            0 0 40px white;
+    }
+
+
+}
+
+.container h3 {
+    color: bisque;
+    font-size: 45px;
+    line-height: 80px;
+    font-weight: 600;
+    /* display: flex; */
+}
+
+span {
+    color: yellow;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#about {
+    color: azure;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#btn {
+    width: 150px;
+    padding: 10px;
+    background: #38bdf8;
+    color: #0f172a;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.pic{
+    position: fixed;
+}
+
+.pic img {
+    border: 2px solid red;
+    background-size: cover;
+    border: 4mm ridge rgba(255, 254, 255, 0.6);
+    border-radius: 50%;
+    position: fixed;
+    right: 100px;
+    top: 180px;
+    
+    box-shadow: 4px 6px 12px rgb(181, 175, 194);
+    animation: slipe 3s ease-in-out 1s 1;
+
+
+}
+
+@keyframes slipe {
+    from {
+        transform: translatey(100%);
+    }
+
+    to {
+        transform: translatey(10);
+    }
+
+}
+.skills h2{
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+    display: flexbox;
+    margin-bottom: 5px;
+    margin-left: 30px;
+
+}
+.myskills{
+    height: 80%;
+   
+    width: 30%;
+    margin-left: 20px;
+
+}
+.skills{
+    color: #fff;
+    height: 500px;
+    width: 100%;
+    /* margin-top: 300px; */
+    background-color: aqua;
+    
+}
+.skills li{
+    margin: 20px;
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(118, 85, 239);
+    font-size:20px;
+    font-weight: 500;
+    text-shadow: 2px 3px 4px black;
+     border-radius: 4px;
+      
+    
+    
+    /* text-decoration: none; */
+}
+li:hover{
+    background-color: brown;
+    scale: 1.1;
+    box-shadow: 2px 4px 3px black;
+}
+
+.about{
+    margin-top: 10px;
+    background-color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   letter-spacing: .03rem;
+   line-height: 1.5rem;
+   padding-top: 20px;
+   text-align: center;
+}
+.aboutme{
+    color: red;
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <h1>Wel-come to my portfolio</h1>
+            <a herf="#about">about</a>
+            <a herf="#skills">skills</a>
+            <a herf="#projects">projects</a>
+            <a herf="#contact">contact</a>
+        </nav>
+    </header>
+    <hr>
+    <div class="container">
+        <h3>Hey 🙋‍♂️ I'm <span>Aman</span></h3>
+        <p id="about">Aspring software engineering</p>
+        <div id="about">Learning web-devlopment & DSA</div>
+        <button id="btn">read me</button>
+    </div>
+    <div class="pic">
+        <img src="Aman..jpg" height="400px" ,>
+    </div>
+    <hr>
+
+    <div class="skills">
+        <div class="myskills">
+             <h2>Skills</h2>
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+             <li>javascript</li>
+              <li>c++</li>
+        </ul>
+        
+        </div>
+       
+    </div>
+
+    <div class="about">
+        <div class="aboutme">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id sed voluptatibus esse tempora laborum, voluptates sint doloribus, voluptatem a officiis temporibus assumenda cupiditate amet necessitatibus rem perspiciatis labore odio dolorum!
+        Impedit voluptatum nemo soluta veritatis ab, ut fuga error delectus non dicta dolor, quasi exercitationem? Voluptates ex et accusantium aspernatur sunt labore aliquid sapiente! Ab magnam sapiente eveniet atque perferendis?
+
+        </div>
+      
+    </div>
+    
+
+</body>
+
+</html>
