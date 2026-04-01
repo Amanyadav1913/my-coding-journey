@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: blueviolet;
+        /* box-shadow: 11px 2px 3px red; */
+    }
+    .container{
+        padding: 8px;
+        margin: 15px;
+        border: 8px solid black;
+        background-color:beige;
+    }
+    .img{
+        border: 2px solid blue;
+        padding: 2px;
+        margin: 4px;
+    }
+   .A1{
+    border: solid blue;
+    filter: brightness(109%);
+    filter: opacity(.6);
+    /* filter: hue-rotate(32deg); */
+   }
+   .A2{
+    border: solid blue;
+    filter: blur(2px);
+   }
+   .A3{
+    border: solid blue;
+    filter:brightness(120%);
+    filter: drop-shadow(12px 4px 54px rgb(239, 30, 44));
+   }
+   .A4{
+    border: solid blue;
+    filter: grayscale(45%);
+    /* filter: hue-rotate(60deg); */
+   }
+   .A5{
+    border: solid blue;
+    filter: brightness(140%);
+   }
+</style>
+
+<body>
+    <div class="container">
+        <img class="A1" src="aman1 (1).jpg" height="480px" width="230px" alt="">
+        <img class="A2" src="aman1 (2).jpg"height="480px"  width="230px" alt="">
+        <img class="A3" src="aman1 (3).jpg"height="480px"  width="230px"alt="">
+        <img class="A4" src="aman1 (4).jpg"height="480px" width="230px" alt="">
+        <img class="A5" src="aman1 (5).jpg"height="480px" width="230px" alt="">
+         <img class="A3" src="aman1 (3).jpg"height="480px"  width="230px"alt="">
+
+
+    </div>
+
+</body>
+
+</html>
