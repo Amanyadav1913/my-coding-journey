@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  body {
+      text-align: center;
+
+  }
+
+  #container {
+      display: flex;
+      height: 200px;
+      width: 600px;
+      border: 2px solid black;
+      margin: 20px;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 5px 8px 6px rgb(65, 4, 4);
+      background-color: lightgray;
+      background-size: cover;
+      flex-direction: row;
+
+  }
+
+  #container1 {
+      display: flex;
+      height: 200px;
+      width: 600px;
+      border: 2px solid black;
+      margin: 20px;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 5px 8px 6px rgb(65, 4, 4);
+      background-color: lightgray;
+      background-size: cover;
+      /* flex-direction: row; */
+      justify-content: center;
+      align-self: start;
+
+
+  }
+
+
+  div:hover {
+      transform: scale(1.1);
+      transition: transform 0.4s ease-in-out;
+      
+  }
+
+
+  #box1 {
+      border: 2px solid black;
+      height: 100px;
+      width: 100px;
+      background-color: lightgreen;
+      margin: 20px;
+      box-shadow: 5px 8px 6px black;
+      background-size: cover;
+       
+
+
+  }
+
+  #box2 {
+      border: 2px solid black;
+      height: 100px;
+      width: 100px;
+      background-color: rgb(151, 21, 21);
+      margin: 20px;
+      box-shadow: 5px 8px 6px black;
+
+
+
+  }
+
+  #box3 {
+      border: 2px solid black;
+      height: 100px;
+      width: 100px;
+      background-color: lime;
+      margin: 20px;
+      box-shadow: 5px 8px 6px black;
+
+
+
+  }
+
+  #box4 {
+      border: 2px solid black;
+      height: 100px;
+      width: 100px;
+      background-color: yellow;
+      margin: 20px;
+      box-shadow: 5px 8px 6px black;
+
+
+  }
+</style>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Flexbox playground</h1>
+       
+          <div id="container">
+            <div id="box1"> <img src="aman1 (1).jpg" height="100" width="80" alt=""></div>
+            <div id="box2"><img src="aman1 (1).webp" height="100" alt=""></div>
+            <div id="box3"><img src="aman1 (2).jpg" height="100" width="80" alt=""></div>
+            <div id="box4"><img src="aman1 (3).jpg" height="100" width="80" alt=""></div>
+
+        </div>
+           <div id="container1">
+            <div id="box1"> <img src="aman1 (1).jpg" height="100" width="80" alt=""></div>
+            <div id="box2"><img src="aman1 (1).webp" height="100" alt=""></div>
+            <div id="box3"><img src="aman1 (2).jpg" height="100" width="80" alt=""></div>
+            <div id="box4"><img src="aman1 (3).jpg" height="100" width="80" alt=""></div>
+
+        </div>
+           <div id="container">
+            <div id="box1"> <img src="aman1 (1).jpg" height="100" width="80" alt=""></div>
+            <div id="box2"><img src="aman1 (1).webp" height="100" alt=""></div>
+            <div id="box3"><img src="aman1 (2).jpg" height="100" width="80" alt=""></div>
+            <div id="box4"><img src="aman1 (3).jpg" height="100" width="80" alt=""></div>
+
+        </div>
+
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
