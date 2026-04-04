@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid2 in css</title>
+</head>
+<style>
+    .container{
+        border: 2px solid black;
+        margin: 3px;
+        padding: 3px;
+        background-color: antiquewhite;
+        display: grid;
+        grid-template-areas: "a a a"
+                            "b c c"
+                            "d d d";
+    }
+    .item{
+        border: 2px solid blue;
+        height: 8vh;
+         width: 320px; 
+        padding: 2px;
+        margin: 2px;
+    }
+    .A1{
+        grid-area: a;
+        background-color:yellowgreen;
+    }
+    .A2{
+        grid-area: b;
+        background-color: aquamarine;
+        overflow-y: auto;
+    }
+     .A3{
+        grid-area: c;
+        background-color: rgb(48, 177, 134);
+    }
+
+     .A4{
+        grid-area: d;
+        background-color: rgb(120, 64, 185);
+    }
+
+     .A5{
+        /* grid-area: d; */
+        background-color: blueviolet;
+        /* text-align: center; */
+      
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="item A1">1</div>
+        <div class="item A2">2</div>
+        <div class="item A3">3</div>
+        <div class="item A4">4</div>
+        <div class="item A5">5</div>
+    </div>
+    
+</body>
+</html>
