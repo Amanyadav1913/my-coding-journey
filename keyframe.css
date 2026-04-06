@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    background-color: black;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-position-y: center; */
+    background-color: rgb(255, 255, 0);
+    position: relative;
+    margin-left: 440px;
+    margin-top: 40px;
+    animation: sunrise 10s ease-in-out  1s infinite;
+}
+
+@keyframes sunrise {
+    from {
+        /* pushes the sun down past the viewport */
+        background-color: rgb(231, 40, 40);
+        transform: translatey(110vh);
+    }
+
+    to {
+        /* returns the sun to its default position */
+        background-color: yellow;
+        transform: translatey(0);
+    }
+
+}
+</style>
+<body>
+     
+         <div></div>
+    
+</body>
+</html>
