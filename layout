@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   background: linear-gradient(to right, rgb(63, 138, 191) 0%, rgb(50, 50, 215) 70%);
+ position: sticky;
+ top: 0px;
+    
+}
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+     font-size: 23px;
+     font-weight: 500;
+     margin: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(0, 149, 255) 0%, rgb(50, 50, 121) 70%);
+
+}
+
+ 
+.box {
+    height: 65vh;
+    width: 55vh;
+    background: #0f172a;
+    border-radius: 10px;
+    border: 3px solid rgb(61, 147, 153);
+    
+}
+.box1{
+   line-height: 40px;
+   text-transform: capitalize;
+   font-weight: 900;
+   font-size: 20px;
+
+}
+.box1 h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+ 
+
+
+.box:hover{
+    background-color: rgb(192, 189, 185);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+     box-shadow: 0px 0px 20px 5px rgb(119, 119, 209);
+}
+
+</style>
+
+
+<body>
+    <div class="navbar">
+        <div class="logo">my portfolio</div>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about me</a></li>
+            <li><a href="#">skills</a></li>
+            <li><a href="#">contact me</a></li>
+        </ul>
+
+        
+    </div>
+    <hr>
+    <div class="container">
+        <div class="box box1">
+            <h1>my skills</h1>
+            <ul style="list-style-position: inside;">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+                <li>python</li>
+                <li>java</li>
+            </ul>
+            
+                
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+         
+        
+    </div>
+    
+</body>
+
+</html>
